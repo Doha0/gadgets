@@ -1,0 +1,149 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* Common styles */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 200px;
+}
+
+/* Navbar Styles */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    margin-bottom: 6em;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 34px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+    margin-bottom: 100px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.banner-discription {
+    color: #3A3A3A;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.button-primary {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    width: 196px;
+    height: 44px;
+    border-radius: 4em;
+    font-weight: 700;
+}
+
+.arrow {
+    padding-left: 8px;
+}
+
+/* .banner-img {
+    background-image: url(../images/Circle\ design.svg);
+    background-size: 95%;
+    background-repeat: no-repeat;
+} */
+
+/* Logos */
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 35px 62px;
+    margin-bottom: 100px;
+}
+
+/* main styles */
+
+
+/* popular style */
+.popular-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 0 230px;
+    grid-gap: 30px;
+}
+
+.popular-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.popular-items {
+    padding: 1em;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    /* width: 329px; */
+    height: 476px;
+}
+
+.items-title {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.items-price {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+/* .items-icons {
+    width: 122px;
+    height: 32px;
+    
+} */
+
+.star {
+    color: #FB8200;
+    width: 16px;
+    height: 16px;
+}
+.rating{
+    padding-left: 10px;
+}
+
+.rating,
+.items-discription {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
